@@ -20,8 +20,7 @@ NASNet 설명 : <http://research.sualab.com/review/2018/09/28/nasnet-review.html
 
 - 완전랜덤이 아님. 
 - 랜덤으로 생성한거 예를들어 시작이 1,2번 마지막 랜덤 아웃풋 노드가 3456 이면, 앞뒤단에 인위적인 노드 한개씩 추가해서 연결함. 
-- ![1556218516256](C:\Users\doyeon\AppData\Roaming\Typora\typora-user-images\1556218516256.png)
-
+- ![1](./image/1.png)
 - 아웃풋 엑스트라 노드에서는 웨이티드썸이아니라 에버리지. 평균을 냄
 
 ### Stages 
@@ -43,7 +42,7 @@ NASNet 설명 : <http://research.sualab.com/review/2018/09/28/nasnet-review.html
 ### 결과
 
 - 망한 모델은 없다
--  ![1556219486933](C:\Users\doyeon\AppData\Roaming\Typora\typora-user-images\1556219486933.png)
+-  ![2](./image/2.png)
 
 - 적어도 다 73% 이상을 기록했다고함
 -  표준편차도 작다고함 : 0.2~0.4%정도
@@ -54,7 +53,7 @@ NASNet 설명 : <http://research.sualab.com/review/2018/09/28/nasnet-review.html
 #### 번외 : 그래프 데미지 실험
 
 - 그래프에서 랜덤하게 엣지나 노드 하나를 없애버림.
-- ![1556219610092](C:\Users\doyeon\AppData\Roaming\Typora\typora-user-images\1556219610092.png)
+- ![3](./image/3.png)
 - 위쪽이 노드없앤거, 아래가 엣지 없앤거.
 - 노드 없엔거에서는 아웃풋 디그리가 x축.
 - 뭔말이냐면 노드에서 디그리 높은 노드가 없어질수록 데미지 많이 입느다.. 뭐 이런
@@ -69,7 +68,7 @@ NASNet 설명 : <http://research.sualab.com/review/2018/09/28/nasnet-review.html
 - 그 종류만 바꿔서 랜덤으로 만들어본결과임
 - 
 
-![1556219845266](C:\Users\doyeon\AppData\Roaming\Typora\typora-user-images\1556219845266.png)
+![4](./image/4.png)
 
  
 
